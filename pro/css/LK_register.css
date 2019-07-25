@@ -1,0 +1,175 @@
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color: #000;
+}
+.navbar_center{
+    position: relative;
+}
+.login_li{
+    text-align:center;
+    list-style:none;
+    padding-top:18px; 
+}
+.login_li>a>img{
+    width:112px;
+}
+.navbar_right{
+    float:right;
+    position: absolute;
+    top:0px;
+    right:40px;
+}
+.navbar_right::after{
+    content:"";
+    display: block;
+    clear:both;
+}    
+.right_li{
+    list-style:none;
+    float:left;
+    padding-top:18px;
+    margin-left:35px;
+}
+.page_reg{
+    background-color: #000;
+    width:100%;
+    height:100%;
+    /* text-align: center; */
+}
+h3{color:#fff;
+    font-size: 2.5rem;
+    text-align: center;
+    padding:40px;}
+.reg_input{
+    margin-left:41%;
+    display: block;
+}
+.username_input>input,.phone_input>input,.code_input>input{
+    width:350px;
+    margin-top:40px;
+    padding:10px 20px;
+    border:0;
+    background-color: #000;
+    outline: none;
+    color:#fff;
+    border-bottom:1px solid #fff;
+}
+.username_input,.phone_input,.code_input{
+    position: relative;
+}
+.username_input::before{
+    content:"";
+    display: block;
+    border-left: 1px solid #fff;
+    height: 29%;
+    position:absolute;
+    left:0;
+    top:54px;
+}
+.phone_input::before{
+    content:"";
+    display: block;
+    border-left: 1px solid #fff;
+    height: 29%;
+    position:absolute;
+    left:0;
+    top:54px
+}
+.code_input::before{
+    content:"";
+    display: block;
+    border-left: 1px solid #fff;
+    height: 29%;
+    position:absolute;
+    left:0;
+    top:54px
+}
+.login_btn{
+    width:120px;
+    height: 50px;
+    margin-left:10%;
+    margin-top:50px;
+    background-color: #000;
+    color:#ff485b;
+    border:1px solid #ff485b;
+    cursor:not-allowed;
+}
+.reg_text{
+    margin-top:50px;
+    margin-bottom: 14%;
+    margin-left:8%;
+}
+.reg_text>span{
+    color:#fff;
+}
+.reg_text>span>a{
+    color:#fff;
+    margin-left:15px;
+}
+.reg_text>span>a:hover{
+    text-decoration: none;
+}
+.page_foot{
+    margin-top:23%;
+}
+.page_foot>ul>li{
+    display:inline-block;
+    padding:15px;
+}
+.page_foot>ul>li>a{
+    color:#fff;
+    font-size: 14px;
+    text-decoration: none;
+}
+.page_foot>ul>li>a:hover{
+    text-decoration:underline;
+} 
+.login_footer{
+    text-align: center;
+    margin-top:15px;
+}
+.login_footer>span{
+    font-size: 14px;
+    padding:10px 40px;
+}
+
+.vali_info{
+    color:#fff;
+    display: none;
+}
+/* 验证消息：验证通过时的样式 */
+.vali_success{
+    background-image:url("../../image/login/right.png");
+	padding-left:20px;
+	width:0px;height:20px;
+	overflow:hidden;
+}
+/* 验证消息：验证失败时的样式 */
+.vali_fail{
+    background-image:url("../../image/login/error.png");
+    /* border:1px solid red; */
+    /* background-color:#ddd; */
+    color:#ff485b;
+    padding-left:30px;
+}
+.vali_success,.vali_fail{
+	background-repeat:no-repeat;
+  background-position:left center;
+	display:block;
+}
+
+
+/* 注册成功自动跳转 */
+.reg_suc{
+    position:fixed;
+    top:35%;
+    left:41%;
+    width:400px;
+    height: 100px;
+    background-color: rgba(0,0,0,0.8);
+    color:#ff485b;
+    font-size: 32px;
+    padding:20px 0;
+    display: none;
+}

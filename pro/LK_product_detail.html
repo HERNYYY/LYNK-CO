@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/comm.css">
+    <link rel="stylesheet" href="css/LK_product_detail.css">
+    <link rel="stylesheet" href="css/header.css">
+</head>
+<body>
+<header>
+<div class="page_header">
+    <ul>
+        <li>
+            <a href="LK_product_list.html" class="logo">
+                <img src="../image/login/logoWhite.png">
+            </a>
+        </li>
+        <li class="head_right">
+            <a href="LK_product_list.html">
+                <img src="../image/login/toMall.png">
+            </a>
+        </li>
+        <li class="head_right" id="myState">
+            <a href="LK_login.html">
+                <img src="../image/login/toClub.png">
+            </a>
+        </li>
+        <li class="head_right" id="onState">
+            <a href="">
+                <img src="../image/login/my.png">
+                <ul class="state_ul">
+                    <li>
+                        <a href="">13260551380</a>
+                    </li>
+                    <li>
+                        <button class="exti_btn">注销</button>
+                    </li>
+                </ul>
+            </a>
+        </li>
+    </ul>
+</div>
+</header>
+<div class="pro_detail">
+     <div class="detail_header">
+        <div class="header_img">
+            <div class="img_M">
+                <img src="">
+                <div class="mmask"></div>
+                <div class="mask"></div>
+            </div>
+            <div class="img_S">
+                <!-- <img src="../image/product_detail/p1-s.jpg" data-md="../image/product_detail/p1-m.jpg" data-lg="../image/product_detail/p1-l.jpg">
+                <img src="../image/product_detail/p2-s.jpg" data-md="../image/product_detail/p2-m.jpg" data-lg="../image/product_detail/p2-l.jpg">
+                <img src="../image/product_detail/p3-s.jpg" data-md="../image/product_detail/p3-m.jpg" data-lg="../image/product_detail/p3-l.jpg">
+                <img src="../image/product_detail/p4-s.jpg" data-md="../image/product_detail/p4-m.jpg" data-lg="../image/product_detail/p4-l.jpg"> -->
+            </div>
+            <div class="img_L"></div>
+        </div>
+        <div class="header_text">
+            <h3 class="header_title"></h3>
+            <p class="header_price"><span>￥</span><span class="p_price"></span>￥<span class="p_price"></span></p>
+            <p class="price_text"><span><img src="../image/product_detail/coMoney.png"></span><span>最高可使用 1680 Co币</span></p>
+            <div class="item_count">
+                <span>数量</span>
+                <span class="count_btn">
+                    <a href="javascript:;" class="reduce">-</a>
+                    <span class="count"></span>
+                    <a href="javascript:;" class="add">+</a> 
+                </span>
+            </div>
+            <div>
+                <button class="cart_btn" id="addCart">加入购物车</button>
+                <button class="cart_btn" id="toCart">立即购买</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 商品详情信息 -->
+    <div class="detail_text">
+        <div class="detail_nav">
+            <ul class="nav_ul">
+                <li class="scroll1"><a href="javascript:;" class="active">商品详情</a></li>
+                <li class="scroll2"><a href="javascript:;">基本参数</a></li>
+                <li class="scroll3"><a href="javascript:;">用户评论</a></li>
+            </ul>
+        </div>
+        <div class="detail_img">
+            <img src="../image/product_detail/detail1.jpg">
+            <img src="../image/product_detail/detail2.jpg">
+        </div>
+        <div class="detail_comments">
+            <p class="comment_title">用户评论</p>
+            <div class="comment_text">
+                <div class="comment_left">
+                    <ul>
+                        <li>
+                            <h1>5.0</h1>
+                            <p>
+                                <img src="../image/product_detail/access_small.png">
+                                <img src="../image/product_detail/access_small.png">
+                                <img src="../image/product_detail/access_small.png">
+                                <img src="../image/product_detail/access_small.png">
+                                <img src="../image/product_detail/access_small.png">
+                            </p>
+                            <p>商城服务质量<span> 5.0</span></p>
+                            <p>物流服务质量<span> 5.0</span></p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="comment_right">
+                    <ul>
+                        <li><a href="javascript:;">全部</a></li>
+                        <li><a href="javascript:;">最新</a></li>
+                        <li><a href="javascript:;">超棒</a></li>
+                        <li><a href="javascript:;">有图</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+            <div class="comment_sort">
+                <p>评论排序：
+                    <a href="javascript:;">默认排序</a>
+                    <a href="javascript:;">时间排序</a>
+                </p>
+            </div>
+            <div class="comment_item">
+                <p>无</p>
+            </div>
+            <div class="comment_page">
+                <p>
+                    <span class="page_jt"><a href="javascript:;"> ＜ </a></span>
+                    <a href="javascript:;">1</a>
+                    <span class="page_jt"><a href="javascript:;"> ＞ </a></span>
+                    <span class="page_count">共有1页</span>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="right_nav">
+        <div class="right_btn">
+            <div class="right_btn_car">
+                <a href="javascript:;" class="cart_in">
+                    <img src="../image/product_list/toShop.png">
+                    <p>购物车</p>  
+                </a>                
+            </div>
+            <div class="right_btn_server">
+                <a href="javascript:;" >
+                  <img src="../image/product_list/callService.png">
+                <p>在线客服</p>  
+                </a>
+            </div>
+        </div>    
+        <div class="right_btn_top">
+            <a href="javascript:;" class="toTop">
+                <img src="../image/product_list/setTop.png">
+                <p>一键置顶</p>
+            </a>
+        </div>
+    </div>
+
+
+    <div class="detail_nav_none">
+        <ul class="nav_ul">
+            <li class="scroll1"><a href="javascript:;" class="active">商品详情</a></li>
+            <li class="scroll2"><a href="javascript:;">基本参数</a></li>
+            <li class="scroll3"><a href="javascript:;">用户评论</a></li>
+            <li><button class="cart_btn" id="addCart">加入购物车</button></li>
+            <li><button class="cart_btn" id="toCart">立即购买</button></li>
+        </ul>
+        
+        
+    </div>
+<footer>
+<div class="detail_footer">
+        <div id="parent"></div>
+        <h4>发货说明</h4>
+        <p>您购买的商品（非预售商品），我们将会在3-5个工作日内进行发货（节假日只接单不发货）。</p>
+        <h4>七天无理由退货说明</h4>
+        <p>LYNK & CO承诺，自客户确认签收商品第二日起7日内可无理由退货，质量问题退货运费由我司承担。您可以通过“个人中心”-“我的订单”在线申请办理退货事宜。在您选择退货时需保证退回商品为完好的商品（能够保持原有品质、功能，商品本身、配件、商标标识齐全，外包装完整的，不影响二次销售的，视为商品完好）。如退回商品不符合要求，不支持7天无理由退货政策。</p>
+        <h4>客服热线</h4>
+        <h1>4006-010101</h1>
+        <p>（24小时热线电话）</p>
+    </div>
+</footer>
+</body>
+<script src="../js/jquery-1.11.3.js"></script>
+<script src="../js/header.js"></script>
+<script src="../js/product_scroll.js"></script>
+<script src="../js/detail.js"></script>
+<script src="../js/cartin.js"></script>
+</html>

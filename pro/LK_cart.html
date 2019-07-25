@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车</title>
+    <link rel="stylesheet" href="css/comm.css">
+    <link rel="stylesheet" href="css/LK_cart.css">
+</head>
+<body>
+<div class="cart">
+<h2 class="cart_title">我的购物车</h2>
+<div class="cart_item">
+    <table>
+        <thead class="cart_header">
+            <tr>
+                <td width="257">
+                    <input type="checkbox" class="all_btn">全选
+                </td>
+                <td width="360">商品列表</td>
+                <td width="160" class="tc">单价</td>
+                <td width="185" class="tc">数量</td>
+                <td width="118" class="tc">小计</td>
+                <td width="118" class="tc">操作</td>
+            </tr>
+        </thead>
+        <tbody id="item_body">
+          <!--   <tr class="cart_tr">
+                <td class="cart_check">
+                    <input type="checkbox" class="item_btn">
+                    <a href="javascript:;">
+                        <img src="../image/product_list/p3.jpg">
+                    </a>
+                </td>
+                <td id="item_title">
+                    <h3>LynkCo Magic Disk 无线充电发射板
+                    </h3>
+                    <img src="../image/cart/2.png">
+                    <img src="../image/cart/3.png">
+                    <img src="../image/cart/4.png">
+                </td>
+                <td class="tc" id="item_price">
+                    <h3 class="price">168.00</h3>
+                </td>
+                <td class="tc" id="item_count">
+                    <a href="javascript:;" class="reduce">-</a>
+                    <span class="count">1</span>
+                    <a href="javascript:;" class="add">+</a>
+                </td>
+                <td class="tc" id="item_sum">
+                    <h3 class="sum">168.00</h3>
+                </td>
+                <td class="tc" id="item_del">
+                    <a href="javascript:;" class="remove">×</a>
+                </td>
+            </tr>
+            <tr>
+                <td class="cart_check">
+                    <input type="checkbox" class="item_btn">
+                    <a href="javascript:;">
+                        <img src="../image/product_list/p9.jpg">
+                    </a>
+                </td>
+                <td id="item_title">
+                    <h3>LynkCo 渐变保温瓶
+                    </h3>
+                    <img src="../image/cart/2.png">
+                    <img src="../image/cart/3.png">
+                    <img src="../image/cart/4.png">
+                </td>
+                <td class="tc" id="item_price">
+                    <h3 class="price">128.00</h3>
+                </td>
+                <td class="tc" id="item_count">
+                    <a href="javascript:;" class="reduce">-</a>
+                    <span class="count">1</span>
+                    <a href="javascript:;" class="add">+</a>
+                </td>
+                <td class="tc" id="item_sum">
+                    <h3 class="sum">128.00</h3>
+                </td>
+                <td class="tc" id="item_del">
+                    <a href="javascript:;" class="remove">×</a>
+                </td> 
+            </tr>-->
+        </tbody>
+    </table>
+</div>
+<div class="get_total">
+    <div class="total_left">
+        您已选择<span class="check_count">1</span> 件商品
+        <!-- ，您已选择<span>0</span> 件商品 -->
+    </div>
+    <div class="total_right">
+        应付合计： ￥ <span class="total">0.00</span>
+        <button>确认付款</button> 
+    </div>
+
+</div>
+</div>
+</body>
+<script src="/js/jquery-1.11.3.js"></script>
+<script src="/js/shopping_cart.js"></script>
+</html>

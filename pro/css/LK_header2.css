@@ -1,0 +1,38 @@
+.page_header{
+    position: fixed;
+    top:0px;
+    display: flex;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color: #000;
+}
+.navbar_center{
+    position: relative;
+}
+.login_li{
+    text-align:center;
+    list-style:none;
+    padding-top:18px; 
+}
+.login_li>a>img{
+    width:112px;
+}
+.navbar_right{
+    float:right;
+    position: absolute;
+    top:0px;
+    right:40px;
+}
+.navbar_right::after{
+    content:"";
+    display: block;
+    clear:both;
+}    
+.right_li{
+    list-style:none;
+    float:left;
+    padding-top:18px;
+    margin-left:35px;
+}
